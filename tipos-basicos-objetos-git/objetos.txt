@@ -1,0 +1,8 @@
+3 tipos básicos de objetos do GIT responsável por direcionamento do código: 
+
+1 – BLOBS: Um blob (objeto binário grande) do Git é o tipo de objeto usado para armazenar o conteúdo de cada arquivo em um repositório. O hash SHA-1 do arquivo é calculado e armazenado no objeto do blob. Esses pontos de extremidade permitem que você leia e grave objetos de blob no banco de dados do Git no GitHub. Objeto básico da composição, guarda o char (caracteres) do arquivo. Tem o sha1 do arquivo.
+
+2 – TREES: O tipo de objeto é tree, e em vez de ter os valores simples, como o blob, a tree é um conjunto de valores de índices apontando para os objetos, juntamente com um modo (tipicamente 100644 para arquivos e 100755 para diretórios). Objeto que monta a estrutura dos arquivos. Faz armazenagem do nome e apontam para tipos de blobs e commits 
+diferentes, também pode apontar para outra tree. Possui um sha1 criptado os metadados das árvores. Se mudar uma virgula do arquivo o sha da bolha(blobs) vai mudar.
+
+3 – COMMITS: vai juntar tudo, vai dar sentido para a alteração. Os commits são basicamente o estado em que o projeto se encontra na linha do tempo. Ou seja, a versão do projeto naquele momento em que o commit foi criado. Marca o fim de uma transação.

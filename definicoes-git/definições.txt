@@ -1,0 +1,27 @@
+Git: software de direcionamento de código. Sistema distribuído seguro. Ajuda a criar e monitorar diferentes versões do código dentro da máquina. 
+
+Por que o GIT é um sistema distribuído seguro? 
+O git foi projetado para mostrar quando alterações foram feitas.  Nele todo o conteúdo dos códigos, assim como a relação entre os diferentes arquivos, diretórios, versões e tags são criptograficamente protegidos por um algoritmo de hashing chamado SHA1.
+
+Github: Para repositório de código, funciona como uma rede social. É um reopsitório online em nuvem que hospeda o GIT, que é um sistema de controle de versão. Funciona como uma rede social na qual permite que os desenvolvedores colaborem entre si e façam alterações em projetos compartilhados.
+
+SHA1 – algoritmo que vai pegar seu arquivo e embaralhar de uma forma específica. A encriptação gera um conjunto de caracteres identificador de 40 dígitos. O git faz uso desse algoritmo de encriptação para identificar os arquivos de forma segura e rápida. É forma para o git identificar que os arquivos sofreram modificações.
+
+Chave SSH – Forma de estabelecer uma conexão segura e encriptada entre duas máquinas. Configurar nossa máquina como segura para logar no github.
+
+O que é Branch?
+Divisões ou versões diferentes do código que estão sendo versionadas de forma separada.
+Do inglês, significa galho. São caminho diferentes a serem seguidos.
+
+Tracked – arquivos rastreados. 
+Untracked: não rastreado (o git ainda não tem ciência dele)
+
+Unmodified: não modificado ainda. 
+Modified: foi modificado. 
+
+Staging - É um espaço temporário onde você determina quais mudanças serão adicionadas. área para elencar
+Nessa parte, você está montando um elenco, mas ainda não o tem completo. Você ainda está chamando os "atores" que vão "participar da peça", as mudanças significativas que você quer por para a posteridade
+
+O que é Commit? 
+Versões do código. Criar commits é criar cópias do seu código que podem ser movidas tanto para o futuro quanto pro passado de acordo com suas necessidades. vem de sua forma substantivada: commitment, ou compromisso
+Nessa parte, você está pronto para selar um compromisso para a eternidade. Com tudo que foi elencado, você pôs as peças importantes em jogo e está pronto para assumir um compromisso. Daí, commit creio que possa ser traduzido como o verbo reflexivo "comprometer-se". Somente usar se realmente precisar e se estiver trabalhando em equipe, primeiro consultá-la.

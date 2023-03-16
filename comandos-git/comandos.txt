@@ -1,0 +1,27 @@
+•	Git status : Verifica o status do código
+•	Git init : cria um repositório no git  dentro daquela pasta.
+•	Control L : Limpa a tela
+•	Cd nomedapasta – para entrar na pasta
+•	Ls : listar repositórios
+•	Ls -a : listar repositórios ocultos
+•	Mkdir nomedapasta : criar pasta
+•	Mv nomedoarquivo ./nomedapasta/ : para mover o arquivo para dentro da pasta
+•	Git add nomedoarquivo : para adicionar 
+•	Git commit -m “cria pasta receitas, move arquivo para receitas” : criar commit
+•	Echo > README.md : criar readme
+•	Git config – list : lista de todas as configurações que estão no git
+•	Git config –global –unset user.email : alterar configurações, nesse caso o email
+•	Git config –global user.email natanflima@hotmail.com : setar o email
+•	Git remote add origin https://github.com/natanflima/livro-receitas.git : empurrar o repositorio local para o repositório remoto (github). 
+Obs.: origin é usado apenas para convenção, para não ter que copiar o link a todo momento
+•	Git remote -v : listar as listas de repositório remotos cadastrados
+•	Git push origin master : envia o código da máquina para o github
+•	Para fazer alteração no README: 
+1. git status para aparecer se o arquivo está modificado. 
+2. git add * pois ainda não está no staged, tem que adicionar ele primeiro para depois gerar o commit. 
+3. Ls e git status para ver se movei para stage. 
+4. Git commit -m “adiciona receita pavê”. 
+5. Git push origin master para enviar pro github
+•	Git pull origin master : puxar o conteúdo para a máquina. O git vai juntar as duas versões, o do github e o da máquina.
+•	Quando der erro reject ao enviar pro github: git pull origin master
+•	Clonar repositório: git clone <link>
